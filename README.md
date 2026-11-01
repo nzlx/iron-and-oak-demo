@@ -22,14 +22,14 @@ A one-page website for a fictional premium barbershop in Tampa, Florida, built a
 - [Tailwind CSS 4](https://tailwindcss.com)
 - [Framer Motion](https://motion.dev) for animations, [Lenis](https://lenis.darkroom.engineering) for smooth scrolling
 - `next/image` for responsive, optimized images; self-hosted fonts (DM Serif Display, Inter)
-- Deployed on [Vercel](https://vercel.com)
+- Deployed on [Vercel](https://vercel.com); every push to `main` redeploys the live site
 
 ## Run locally
 
 Requires Node.js 20 or newer.
 
 ```bash
-git clone https://github.com/<your-username>/iron-and-oak-demo.git
+git clone https://github.com/nzlx/iron-and-oak-demo.git
 cd iron-and-oak-demo
 npm install
 npm run dev
